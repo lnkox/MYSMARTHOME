@@ -1,0 +1,435 @@
+ (routes 
+  (resolution mm 100000)
+  (parser
+  )
+  (parser
+  )
+  (structure_out
+   (layer TOP (type signal)
+   )
+   (layer I1 (type signal)
+   )
+   (layer I2 (type signal)
+   )
+   (layer I3 (type signal)
+   )
+   (layer I4 (type signal)
+   )
+   (layer I5 (type signal)
+   )
+   (layer I6 (type signal)
+   )
+   (layer I7 (type signal)
+   )
+   (layer I8 (type signal)
+   )
+   (layer I9 (type signal)
+   )
+   (layer I10 (type signal)
+   )
+   (layer I11 (type signal)
+   )
+   (layer I12 (type signal)
+   )
+   (layer I13 (type signal)
+   )
+   (layer I14 (type signal)
+   )
+   (layer BOT (type signal)
+   )
+  )
+  (library_out
+  (padstack $VIA_POWER
+   (shape (circ TOP 76200 0 0))
+   (shape (circ I1 76200 0 0))
+   (shape (circ I2 76200 0 0))
+   (shape (circ I3 76200 0 0))
+   (shape (circ I4 76200 0 0))
+   (shape (circ I5 76200 0 0))
+   (shape (circ I6 76200 0 0))
+   (shape (circ I7 76200 0 0))
+   (shape (circ I8 76200 0 0))
+   (shape (circ I9 76200 0 0))
+   (shape (circ I10 76200 0 0))
+   (shape (circ I11 76200 0 0))
+   (shape (circ I12 76200 0 0))
+   (shape (circ I13 76200 0 0))
+   (shape (circ I14 76200 0 0))
+   (shape (circ BOT 76200 0 0))
+  )
+  (padstack $VIA_SIGNAL
+   (shape (circ TOP 76200 0 0))
+   (shape (circ I1 76200 0 0))
+   (shape (circ I2 76200 0 0))
+   (shape (circ I3 76200 0 0))
+   (shape (circ I4 76200 0 0))
+   (shape (circ I5 76200 0 0))
+   (shape (circ I6 76200 0 0))
+   (shape (circ I7 76200 0 0))
+   (shape (circ I8 76200 0 0))
+   (shape (circ I9 76200 0 0))
+   (shape (circ I10 76200 0 0))
+   (shape (circ I11 76200 0 0))
+   (shape (circ I12 76200 0 0))
+   (shape (circ I13 76200 0 0))
+   (shape (circ I14 76200 0 0))
+   (shape (circ BOT 76200 0 0))
+  )
+  )
+  (network_out
+   (Net #00041 
+   (rule
+   )
+   (wire (path TOP 50800  -6540500 1968500 -6540500 1460500 -6477000 1460500)
+    (connect (terminal pin D1-0) (terminal smd R9-0))
+   )
+   )
+   (Net 1 
+   (rule
+   )
+   (wire (path TOP 50800  -6024880 3690620 -5630333 3690620 -5630333 3175000
+     -5588000 3175000 -5588000 3112740 -5355860 3112740)
+    (connect (terminal pin J3-0) (terminal smd U1-0))
+   )
+   )
+   (Net 10 
+   (rule
+   )
+   (wire (path TOP 50800  -5560060 1534160 -5560060 1968500 -5135860 1968500
+     -5135860 2412740)
+    (connect (terminal pin J2-1) (terminal smd U1-9))
+   )
+   )
+   (Net 11 
+   (rule
+   )
+   (wire (path TOP 50800  -5306060 1534160 -5306060 1841500 -5055860 1841500
+     -5055860 2412740)
+    (connect (terminal pin J2-2) (terminal smd U1-10))
+   )
+   )
+   (Net 12 
+   (rule
+   )
+   (wire (path TOP 50800  -5052060 1534160 -5052060 1714500 -4975860 1714500
+     -4975860 2412740)
+    (connect (terminal pin J2-3) (terminal smd U1-11))
+   )
+   )
+   (Net 13 
+   (rule
+   )
+   (wire (path TOP 50800  -4798060 1534160 -4798060 1714500 -4895860 1714500
+     -4895860 2412740)
+    (connect (terminal pin J2-4) (terminal smd U1-12))
+   )
+   )
+   (Net 14 
+   (rule
+   )
+   (wire (path TOP 50800  -4544060 1534160 -4544060 1809750 -4815860 1809750
+     -4815860 2412740)
+    (connect (terminal pin J2-5) (terminal smd U1-13))
+   )
+   )
+   (Net 15 
+   (rule
+   )
+   (wire (path TOP 50800  -4290060 1534160 -4290060 1905000 -4735860 1905000
+     -4735860 2412740)
+    (connect (terminal pin J2-6) (terminal smd U1-14))
+   )
+   (wire (path TOP 50800  -4826000 952500 -4826000 1143000 -4290060 1143000
+     -4290060 1534160)
+    (connect (terminal pin J1-0) (terminal pin J2-6))
+   )
+   )
+   (Net 16 
+   (rule
+   )
+   (wire (path TOP 50800  -4036060 1534160 -4036060 1714500 -4191000 1714500
+     -4191000 2032000 -4655860 2032000 -4655860 2412740)
+    (connect (terminal pin J2-7) (terminal smd U1-15))
+   )
+   (wire (path TOP 50800  -3810000 952500 -3810000 1333500 -4036060 1333500
+     -4036060 1534160)
+    (connect (terminal pin J1-4) (terminal pin J2-7))
+   )
+   )
+   (Net 17 
+   (rule
+   )
+   (wire (path TOP 50800  -3888740 1912620 -4064000 1912620 -4064000 2159000
+     -4381500 2159000 -4381500 2552740 -4515860 2552740)
+    (connect (terminal pin J4-0) (terminal smd U1-16))
+   )
+   (wire (path TOP 50800  -4064000 952500 -4064000 1143000 -3683000 1143000
+     -3683000 1912620 -3888740 1912620)
+    (connect (terminal pin J1-3) (terminal pin J4-0))
+   )
+   )
+   (Net 18 
+   (rule
+   )
+   (wire (path TOP 50800  -3302000 1333500 -3302000 2166620 -3888740 2166620)
+    (connect (terminal pin R8-1) (terminal pin J4-1))
+   )
+   (wire (path TOP 50800  -3888740 2166620 -3888740 2293620 -4064000 2293620
+     -4064000 2349500 -4254500 2349500 -4254500 2632740 -4515860 2632740)
+    (connect (terminal pin J4-1) (terminal smd U1-17))
+   )
+   )
+   (Net 19 
+   (rule
+   )
+   (wire (path TOP 50800  -3888740 2420620 -3888740 2547620 -4127500 2547620
+     -4127500 2712740 -4515860 2712740)
+    (connect (terminal pin J4-2) (terminal smd U1-18))
+   )
+   )
+   (Net 2 
+   (rule
+   )
+   (wire (path TOP 50800  -6024880 3436620 -5715000 3436620 -5715000 3032740
+     -5355860 3032740)
+    (connect (terminal pin J3-1) (terminal smd U1-1))
+   )
+   )
+   (Net 20 
+   (rule
+   )
+   (wire (path TOP 50800  -3888740 2674620 -3888740 2799080 -4064000 2799080
+     -4064000 2792740 -4515860 2792740)
+    (connect (terminal pin J4-3) (terminal smd U1-19))
+   )
+   (wire (path TOP 50800  -3429000 2667000 -3888740 2667000 -3888740 2674620)
+    (connect (terminal pin JP1-0) (terminal pin J4-3))
+   )
+   )
+   (Net 22 
+   (rule
+   )
+   (wire (path TOP 50800  -3888740 3182620 -4381500 3182620 -4381500 2952740
+     -4515860 2952740)
+    (connect (terminal pin J4-5) (terminal smd U1-21))
+   )
+   )
+   (Net 23 
+   (rule
+   )
+   (wire (path TOP 50800  -3888740 3436620 -3556000 3436620 -3556000 3055620
+     -4254500 3055620 -4254500 3032740 -4515860 3032740)
+    (connect (terminal pin J4-6) (terminal smd U1-22))
+   )
+   )
+   (Net 24 
+   (rule
+   )
+   (wire (path TOP 50800  -3888740 3690620 -4127500 3690620 -4127500 3302000
+     -4515860 3302000 -4515860 3112740)
+    (connect (terminal pin J4-7) (terminal smd U1-23))
+   )
+   )
+   (Net 25 
+   (rule
+   )
+   (wire (path TOP 50800  -4064000 4064000 -4064000 3873500 -4318000 3873500
+     -4318000 3429000 -4655860 3429000 -4655860 3252740)
+    (connect (terminal pin J5-0) (terminal smd U1-24))
+   )
+   )
+   (Net 26 
+   (rule
+   )
+   (wire (path TOP 50800  -4318000 4064000 -4445000 4064000 -4445000 3556000
+     -4735860 3556000 -4735860 3252740)
+    (connect (terminal pin J5-1) (terminal smd U1-25))
+   )
+   )
+   (Net 27 
+   (rule
+   )
+   (wire (path TOP 50800  -4572000 4064000 -4572000 3683000 -4815860 3683000
+     -4815860 3252740)
+    (connect (terminal pin J5-2) (terminal smd U1-26))
+   )
+   )
+   (Net 28 
+   (rule
+   )
+   (wire (path TOP 50800  -4826000 4064000 -4826000 3810000 -4895860 3810000
+     -4895860 3252740)
+    (connect (terminal pin J5-3) (terminal smd U1-27))
+   )
+   )
+   (Net 29 
+   (rule
+   )
+   (wire (path TOP 50800  -4318000 952500 -4361180 952500 -4361180 1270000
+     -5143500 1270000 -5143500 889000 -6985000 889000 -6985000 4762500
+     -5107500 4762500 -5107500 4445000)
+    (connect (terminal pin J1-2) (terminal smd R1-1))
+   )
+   (wire (path TOP 50800  -5080000 4064000 -5080000 3810000 -4975860 3810000
+     -4975860 3252740)
+    (connect (terminal pin J5-4) (terminal smd U1-28))
+   )
+   (wire (path TOP 50800  -4953000 4254500 -5107500 4254500 -5107500 4445000)
+    (connect (terminal wire) (terminal smd R1-1))
+   )
+   (wire (path TOP 50800  -5080000 4064000 -4953000 4064000 -4953000 4254500)
+    (connect (terminal pin J5-4) (terminal wire))
+   )
+   )
+   (Net 30 
+   (rule
+   )
+   (wire (path TOP 50800  -5334000 4064000 -5334000 3683000 -5055860 3683000
+     -5055860 3252740)
+    (connect (terminal pin J5-5) (terminal smd U1-29))
+   )
+   )
+   (Net 31 
+   (rule
+   )
+   (wire (path TOP 50800  -5588000 4064000 -5461000 4064000 -5461000 3556000
+     -5135860 3556000 -5135860 3252740)
+    (connect (terminal pin J5-6) (terminal smd U1-30))
+   )
+   )
+   (Net 32 
+   (rule
+   )
+   (wire (path TOP 50800  -5842000 4064000 -5842000 3873500 -5545666 3873500
+     -5545666 3429000 -5215860 3429000 -5215860 3252740)
+    (connect (terminal pin J5-7) (terminal smd U1-31))
+   )
+   )
+   (Net 7 
+   (rule
+   )
+   )
+   (Net 8 
+   (rule
+   )
+   (wire (path TOP 50800  -6024880 1912620 -6223000 1912620 -6223000 2293620
+     -5842000 2293620 -5842000 2349500 -5715000 2349500 -5715000 2552740
+     -5355860 2552740)
+    (connect (terminal pin J3-7) (terminal smd U1-7))
+   )
+   )
+   (Net 9 
+   (rule
+   )
+   (wire (path TOP 50800  -5814060 1534160 -5814060 2095500 -5215860 2095500
+     -5215860 2412740)
+    (connect (terminal pin J2-0) (terminal smd U1-8))
+   )
+   (wire (path TOP 50800  -5355860 2632740 -5215860 2632740 -5215860 2412740)
+    (connect (terminal smd U1-6) (terminal smd U1-8))
+   )
+   )
+   (Net GND 
+   (rule
+   )
+   (wire (path TOP 50800  -3810000 698500 -2667000 698500 -2667000 2928620
+     -3888740 2928620)
+    (connect (terminal pin J1-5) (terminal pin J4-4))
+   )
+   (wire (path TOP 50800  -3888740 2928620 -4127500 2928620 -4127500 2872740
+     -4515860 2872740)
+    (connect (terminal pin J4-4) (terminal smd U1-20))
+   )
+   (wire (path TOP 50800  -5207000 2872740 -4515860 2872740)
+    (connect (terminal wire) (terminal smd U1-20))
+   )
+   (wire (path TOP 50800  -4064000 698500 -4064000 698499 -3810000 698499
+     -3810000 698500)
+    (connect (terminal pin J1-6) (terminal pin J1-5))
+   )
+   (wire (path TOP 50800  -4064000 698500 -4064000 698499 -4318000 698499
+     -4318000 698500)
+    (connect (terminal pin J1-6) (terminal pin J1-7))
+   )
+   (wire (path TOP 50800  -4572000 698500 -4572000 698499 -4318000 698499
+     -4318000 698500)
+    (connect (terminal pin J1-8) (terminal pin J1-7))
+   )
+   (wire (path TOP 50800  -6024880 3182620 -6286500 3182620 -6286500 2674620)
+    (connect (terminal pin J3-2) (terminal wire))
+   )
+   (wire (path TOP 50800  -6024880 2674620 -6024880 2799080 -5842000 2799080
+     -5842000 2792740 -5355860 2792740)
+    (connect (terminal pin J3-4) (terminal smd U1-4))
+   )
+   (wire (path TOP 50800  -6477000 2540000 -6286500 2540000 -6286500 2674620)
+    (connect (terminal pin C1-0) (terminal wire))
+   )
+   (wire (path TOP 50800  -6540500 2222500 -6477000 2222500 -6477000 2540000)
+    (connect (terminal pin D1-1) (terminal pin C1-0))
+   )
+   (wire (path TOP 50800  -5207000 2872740 -5207000 2952740 -5355860 2952740)
+    (connect (terminal wire) (terminal smd U1-2))
+   )
+   (wire (path TOP 50800  -5355860 2792740 -5207000 2792740 -5207000 2872740)
+    (connect (terminal smd U1-4) (terminal wire))
+   )
+   (wire (path TOP 50800  -6286500 2674620 -6024880 2674620)
+    (connect (terminal wire) (terminal pin J3-4))
+   )
+   )
+   (Net VCC/VDD 
+   (rule
+   )
+   (wire (path TOP 50800  -3136900 2349500 -3136900 381000 -4826000 381000
+     -4826000 698500)
+    (connect (terminal wire) (terminal pin J1-9))
+   )
+   (wire (path TOP 50800  -6350000 1016000 -6350000 1079500)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path TOP 50800  -6350000 1460500 -6350000 2387600 -6286500 2387600
+     -6286500 2420620 -6024880 2420620)
+    (connect (terminal wire) (terminal pin J3-5))
+   )
+   (wire (path TOP 50800  -6477000 3048000 -6731000 3048000 -6731000 1016000
+     -6350000 1016000)
+    (connect (terminal pin C1-1) (terminal wire))
+   )
+   (wire (path TOP 50800  -6350000 1016000 -6350000 698500 -4826000 698500)
+    (connect (terminal wire) (terminal pin J1-9))
+   )
+   (wire (path TOP 50800  -6350000 1079500 -6350000 1460500)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path TOP 50800  -6350000 1460500 -6187000 1460500)
+    (connect (terminal wire) (terminal smd R9-1))
+   )
+   (wire (path TOP 50800  -3175000 2667000 -3136900 2667000 -3136900 2349500)
+    (connect (terminal pin JP1-1) (terminal wire))
+   )
+   (wire (path TOP 50800  -3136900 2349500 -3302000 2349500)
+    (connect (terminal wire) (terminal pin R8-0))
+   )
+   (wire (path TOP 50800  -5397500 4445000 -6223000 4445000 -6223000 3309620)
+    (connect (terminal smd R1-0) (terminal wire))
+   )
+   (wire (path TOP 50800  -6024880 2420620 -6024880 2547620 -5842000 2547620
+     -5842000 2712740 -5355860 2712740)
+    (connect (terminal pin J3-5) (terminal smd U1-5))
+   )
+   (wire (path TOP 50800  -5842000 3058160 -5842000 2872740 -5355860 2872740)
+    (connect (terminal wire) (terminal smd U1-3))
+   )
+   (wire (path TOP 50800  -6223000 3309620 -6477000 3309620 -6477000 3048000)
+    (connect (terminal wire) (terminal pin C1-1))
+   )
+   (wire (path TOP 50800  -6024880 2928620 -6024880 3058160 -5842000 3058160)
+    (connect (terminal pin J3-3) (terminal wire))
+   )
+   (wire (path TOP 50800  -5842000 3058160 -5842000 3309620 -6223000 3309620)
+    (connect (terminal wire) (terminal wire))
+   )
+   )
+  )
+ )

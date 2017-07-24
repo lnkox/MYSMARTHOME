@@ -1,0 +1,46 @@
+# Writing all output to: E:\Projects\MYSMARTHOME\proteus\msh.log
+set pad_wire_necking on
+bus diagonal
+fanout 20
+route 50
+clean 10
+route 50 16
+clean 10
+route 50 16
+clean 10
+route 50 16
+clean 10
+route 50 16
+clean 10
+route 50 16
+clean 10
+route 50 16
+clean 10
+route 50 16
+clean 10
+route 50 16
+clean 10
+route 50 16
+clean 10
+route 50 16
+clean 10
+route 50 16
+clean 10
+route 50 16
+clean 10
+route 50 16
+clean 10
+route 50 16
+clean 10
+route 50 16
+clean 10
+route 50 16
+clean 10
+route 50 16
+clean 10
+route 50 16
+clean 10
+route 50 16
+clean 10
+route 50 16
+clean 10
